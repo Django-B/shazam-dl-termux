@@ -1,0 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo 'Начинаем взлом пентагона...'
+filename="${1::-4}.txt"
+file=`cat "$filename"`
+rm "$filename"
+echo 'Перехват данных...'
+
+echo 'Расшифровываем данные...'
+./shazam-dl $file

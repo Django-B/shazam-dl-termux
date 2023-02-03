@@ -1,0 +1,9 @@
+pkg install python
+pkg install python3
+pkg install python-pip
+pkg install python3-pip
+pip install requests
+pip3 install requests
+# termux-setup-storage
+
+mv termux-file-editor ~/bin/
