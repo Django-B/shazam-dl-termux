@@ -1,6 +1,7 @@
-pkg install python
-pkg install python3
-pkg install python-pip
+pkg install ffmpeg -y
+pkg install python -y
+pkg install python3 -y
+pkg install python-pip -y
 pip install requests
 pip3 install requests
 # termux-setup-storage

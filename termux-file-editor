@@ -8,4 +8,4 @@ echo 'Перехват данных...'
 
 echo 'Пентагон взломан'
 echo 'Расшифровываем данные...'
-bash shazam-dl-termux/shazam-dl $file
+bash shazam-dl-termux/shazam-dl "$file"
