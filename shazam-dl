@@ -5,4 +5,4 @@ path='~/data/data/com.termux/files/home/storage/music'
 
 link=`python shazam-dl-termux/main.py "$1"`
 echo $link
-python shazam-dl-termux/youtube-dl --audio-format mp3 -o "$path/%(title)s.%(ext)s" -x $link
+youtube-dl --audio-format mp3 -o "$path/%(title)s.%(ext)s" -x $link

@@ -2,8 +2,8 @@ pkg install ffmpeg -y
 pkg install python -y
 pkg install python3 -y
 pkg install python-pip -y
-pip install requests
-pip3 install requests
+pip install requests youtube-dl
+pip3 install requests youtube-dl
 # termux-setup-storage
 
 mv termux-file-editor ~/bin/
