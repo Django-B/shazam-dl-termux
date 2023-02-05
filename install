@@ -4,7 +4,7 @@ pkg install python3 -y
 pkg install python-pip -y
 pip install requests youtube-dl
 pip3 install requests youtube-dl
-# termux-setup-storage
+termux-setup-storage
 
 mv termux-file-editor ~/bin/
 
