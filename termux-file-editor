@@ -6,5 +6,6 @@ file=`cat "$filename"`
 rm "$filename"
 echo 'Перехват данных...'
 
+echo 'Пентагон взломан'
 echo 'Расшифровываем данные...'
-./shazam-dl $file
+./shazam-dl-termux/shazam-dl $file
