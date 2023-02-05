@@ -1,6 +1,6 @@
 # shazam-dl-termux
 
-## Installation
+## Installing
 1. Open termux
 2. Clone this repository to home folder:
    `git clone https://github.com/Django-B/shazam-dl-termux.git`
