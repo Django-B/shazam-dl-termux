@@ -7,3 +7,6 @@ pip3 install requests
 # termux-setup-storage
 
 mv termux-file-editor ~/bin/
+mv shazam-dl ~/bin/
+mv youtube-dl ~/bin/
+mv main.py ~/bin/
